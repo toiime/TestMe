@@ -47,9 +47,6 @@
     <ClCompile Include="GeneratedFiles\Release\moc_udpReceiver.cpp">
       <Filter>Generated Files\Release</Filter>
     </ClCompile>
-    <ClCompile Include="GeneratedFiles\qrc_udpReceiver.cpp">
-      <Filter>Generated Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="udpReceiver.h">
@@ -57,9 +54,6 @@
     </CustomBuild>
     <CustomBuild Include="udpReceiver.ui">
       <Filter>Form Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="udpReceiver.qrc">
-      <Filter>Resource Files</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>

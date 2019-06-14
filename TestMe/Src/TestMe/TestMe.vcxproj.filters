@@ -47,9 +47,6 @@
     <ClCompile Include="GeneratedFiles\Release\moc_testMe.cpp">
       <Filter>Generated Files\Release</Filter>
     </ClCompile>
-    <ClCompile Include="GeneratedFiles\qrc_testMe.cpp">
-      <Filter>Generated Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="testMe.h">
@@ -57,9 +54,6 @@
     </CustomBuild>
     <CustomBuild Include="testMe.ui">
       <Filter>Form Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="testMe.qrc">
-      <Filter>Resource Files</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
