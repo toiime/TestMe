@@ -1,4 +1,4 @@
-#include "udpReceiver.h"
+﻿#include "udpReceiver.h"
 
 UdpReceiver::UdpReceiver(QWidget *parent)
 	: QWidget(parent)
@@ -9,7 +9,8 @@ UdpReceiver::UdpReceiver(QWidget *parent)
 	_qHostAddress = "127.0.0.1";
 	_port = 5400;
 
-	_qUdpSocket->bind(_qHostAddress, _port);
+	// _qUdpSocket->bind(_qHostAddress, _port); // 绑定 IP
+	_qUdpSocket->bind(_port, QUdpSocket::ShareAddress); // 广播
 
 	connect(_qUdpSocket, &QUdpSocket::readyRead, this, &UdpReceiver::SlotReceive);
 }

@@ -10,7 +10,8 @@ UdpServer::UdpServer(QWidget *parent)
 	ui.setupUi(this);
 
 	_qUdpSocket = new QUdpSocket;
-	_qHostAddress = "127.0.0.1";
+	// _qHostAddress = "127.0.0.1"; // 通过 IP 通信
+	_qHostAddress = QHostAddress::Broadcast; // 广播
 	_port = 5400;
 
 	// 绑定信号槽
