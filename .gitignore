@@ -1,0 +1,8 @@
+/.gitignore.swp
+/TestMe/TestMe.VC.db
+/TestMe/TestMe.VC.VC.opendb
+/TestMe/.vs/
+/TestMe/Src/TestMe/TestMe.vcxproj.user
+/TestMe/Src/TestMe/Debug/
+/TestMe/Src/TestMe/GeneratedFiles/
+/TestMe/Win32/
