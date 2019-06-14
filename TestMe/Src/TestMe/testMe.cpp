@@ -1,12 +1,20 @@
 #include "testMe.h"
 
-TestMe::TestMe(QWidget *parent)
-	: QWidget(parent)
-{
+#include <QMessageBox>
+
+#include "./ExecuteCmd/executeCmd.h"
+
+TestMe::TestMe(QWidget *parent)	: QWidget(parent){
 	ui.setupUi(this);
+
+	connect(ui.pushButtonTest, &QPushButton::clicked, this, &TestMe::SlotTest);
 }
 
-TestMe::~TestMe()
-{
+TestMe::~TestMe(){
 
+}
+
+void TestMe::SlotTest() {
+	ExecuteCmd executeCmd;
+	executeCmd.Execute();
 }

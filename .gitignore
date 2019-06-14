@@ -6,5 +6,6 @@
 /TestMe/Src/*/Debug/
 /TestMe/Src/*/GeneratedFiles/
 /TestMe/Win32/
+/TestMe/Exe/
 /TestMe/Publish/*/Bin/
 /TestMe/Publish/*/Lib/

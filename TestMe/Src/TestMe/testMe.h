@@ -13,6 +13,9 @@ public:
 	~TestMe();
 
 private:
+	void SlotTest();
+
+private:
 	Ui::TestMeClass ui;
 };
 
