@@ -1,25 +1,41 @@
-<UI version="4.0" >
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
  <class>UdpServerClass</class>
- <widget class="QWidget" name="UdpServerClass" >
-  <property name="objectName" >
-   <string notr="true">UdpServerClass</string>
-  </property>
-  <property name="geometry" >
+ <widget class="QWidget" name="UdpServerClass">
+  <property name="geometry">
    <rect>
-	<x>0</x>
-	<y>0</y>
-	<width>600</width>
-	<height>400</height>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>400</height>
    </rect>
   </property>
-  <property name="windowTitle" >
+  <property name="windowTitle">
    <string>UdpServer</string>
   </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QTextEdit" name="textEditText"/>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QLineEdit" name="lineEditSendText"/>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButtonSend">
+       <property name="text">
+        <string>发送</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
  </widget>
- <layoutDefault spacing="6" margin="11" />
- <pixmapfunction></pixmapfunction>
+ <layoutdefault spacing="6" margin="11"/>
  <resources>
-   <include location="udpServer.qrc"/>
+  <include location="udpServer.qrc"/>
  </resources>
  <connections/>
-</UI>
+</ui>
