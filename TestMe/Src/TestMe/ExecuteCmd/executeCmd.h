@@ -1,7 +1,6 @@
 #ifndef EXECUTE_CMD_H_
 #define EXECUTE_CMD_H_
 
-#include "globalInclude.h"
 #include "WindowsCmd/Include/windowsCmd.h"
 
 class ExecuteCmd {

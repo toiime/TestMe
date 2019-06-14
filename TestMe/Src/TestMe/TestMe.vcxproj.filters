@@ -53,6 +53,9 @@
     <ClCompile Include="ExecuteCmd\executeCmd.cpp">
       <Filter>ExecuteCmd</Filter>
     </ClCompile>
+    <ClCompile Include="globalInclude.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="testMe.h">

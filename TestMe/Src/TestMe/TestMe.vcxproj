@@ -90,6 +90,7 @@
     <ClCompile Include="GeneratedFiles\Release\moc_testMe.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="globalInclude.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="testMe.cpp" />
   </ItemGroup>
