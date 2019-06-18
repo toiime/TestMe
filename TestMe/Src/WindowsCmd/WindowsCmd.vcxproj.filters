@@ -15,10 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="libExport.h">
+    <ClInclude Include="..\..\Publish\WindowsCmd\Include\windowsCmd.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Publish\WindowsCmd\Include\windowsCmd.h">
+    <ClInclude Include="..\..\Publish\WindowsCmd\Include\libExport.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

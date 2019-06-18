@@ -153,8 +153,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\Publish\WindowsCmd\Include\libExport.h" />
     <ClInclude Include="..\..\Publish\WindowsCmd\Include\windowsCmd.h" />
-    <ClInclude Include="libExport.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="windowsCmd.cpp" />
