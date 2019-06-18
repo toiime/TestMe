@@ -36,6 +36,9 @@
     <Filter Include="ExecuteCmd">
       <UniqueIdentifier>{0950d5cf-f7c0-4198-b01d-1e1d225608d2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="ExecuteQtDraw">
+      <UniqueIdentifier>{2909a115-df4f-4561-b43c-e092db0249ae}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -56,6 +59,9 @@
     <ClCompile Include="globalInclude.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="ExecuteQtDraw\executeQtDraw.cpp">
+      <Filter>ExecuteQtDraw</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="testMe.h">
@@ -74,6 +80,9 @@
     </ClInclude>
     <ClInclude Include="globalInclude.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ExecuteQtDraw\executeQtDraw.h">
+      <Filter>ExecuteQtDraw</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
