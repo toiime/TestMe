@@ -12,6 +12,8 @@ QtDraw::~QtDraw() {
 
 void QtDraw::DrawText(QPainter* painter, QStringList textList, int x, int y) {
 
+	painter->save();
+
 	QPen pen;
 	pen.setStyle(Qt::DotLine);                // 线型
 	pen.setWidth(2);                          // 线色
@@ -42,4 +44,5 @@ void QtDraw::DrawText(QPainter* painter, QStringList textList, int x, int y) {
 	// 绘制边框
 	painter->drawRect(x, y, pixelsWide, pixelsHigh * textList.size());
 
+	painter->restore();
 }
